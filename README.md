@@ -16,10 +16,10 @@
 
 - Overall, AWS CloudFormation simplifies the process of deploying and managing AWS resources, providing a scalable and efficient solution for infrastructure as code.
 
-'''
+```
 aws cloudformation create-stack --capabilities CAPABILITY_IAM --stack-name ecs-core-infrastructure --template-body file://./cloud-infrastructure-setup.yaml
-'''
+```
 
-'''
+```
 aws cloudformation create-stack --stack-name ecs-type-ec2 --capabilities CAPABILITY_IAM --template-body file://./ecs-ec2-cft.yaml
-'''
+```
